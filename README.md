@@ -2,6 +2,12 @@
 
 An intelligent tool that analyzes resumes against job descriptions to provide improvement suggestions, matching scores, and keyword recommendations.
 
+## 🚀 Live Demo
+
+**Try it now:** [https://resume-bot-bbkdvvxr9pxci4hv748xtu.streamlit.app/](https://resume-bot-bbkdvvxr9pxci4hv748xtu.streamlit.app/)
+
+Upload your resume, paste a job description, and get instant AI-powered analysis!
+
 ## Features
 
 - 📄 PDF resume parsing and text extraction
@@ -13,7 +19,7 @@ An intelligent tool that analyzes resumes against job descriptions to provide im
 
 ## Technologies Used
 
-- **PDF Parsing**: PyMuPDF (fitz) and pdfplumber
+- **PDF Parsing**: PyMuPDF (fitz)
 - **NLP & Analysis**: OpenRouter.ai GPT models via LangChain
 - **UI**: Streamlit
 - **Text Processing**: NLTK, sentence-transformers
@@ -24,8 +30,8 @@ An intelligent tool that analyzes resumes against job descriptions to provide im
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd ai-resume-assistant
+git clone https://github.com/Abdallah-007/Resume-Bot.git
+cd Resume-Bot
 ```
 
 2. Create a virtual environment:
